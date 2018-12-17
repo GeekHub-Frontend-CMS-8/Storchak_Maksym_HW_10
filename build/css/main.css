@@ -166,5 +166,18 @@ h1 {
 .title__txt-about {
   color: #e6d1e3; }
 
+.title__about {
+  margin: 0;
+  background: url(../img/m_team_bg.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.title__about-text {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 15px; }
+
 body {
   font-family: Lato; }
