@@ -1,0 +1,134 @@
+
+.section__work
+    
+    position: relative
+
+.section__work::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: url(../img/bgwork.png) center no-repeat
+    background-size: cover
+    // opacity: 0.18
+    z-index: -19
+
+.section__work::after
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background-color: #81a256
+    opacity: 0.8
+    z-index: -20
+ 
+
+.head__work
+    background: none
+
+.menu-work
+    .pt
+        &:hover
+            background-color: #a1ca6c
+
+.title__txt-about
+    color: #ffffff
+
+.find-panel
+    display: flex
+    justify-content: space-around
+    align-items: baseline
+    margin-bottom: 47px
+    border-top: 2px solid #94b963
+    border-bottom: 2px solid #94b963
+
+
+.find-panel-title
+    color: #ffffff
+    font-size: 20px
+    font-weight: 700
+    text-transform: uppercase
+
+
+
+.item
+    padding: 5px 10px
+    display: inline
+    &:hover
+        background-color: #f5c149
+        border-radius: 5px
+
+.portfolio
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    padding-bottom: 107px
+    
+
+.works
+    flex-basis: 22%
+    min-width: 260px
+    margin: 0 10px
+    
+
+.img
+    img
+        width: 100%
+        
+
+.img 
+    position: relative
+    &:hover
+        background-color: #3d4d29
+        opacity: 0.6
+
+.hover 
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    transition: opacity .5s ease
+    opacity: 0
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+      
+  
+
+.hover:hover 
+    opacity: 0.8
+
+
+.hover i 
+    color: #ffffff
+    font-size: 48px
+    padding: 10px
+    margin: 10px
+    border: 2px solid #fff
+    border-radius: 50px
+    width: 50px
+    height: 50px
+    
+    
+
+.description
+    background-color: #eeeeee
+
+.tria
+    text-align: center
+    transform: translateY(-20px)        
+    
+   
+
+.txt
+    text-align: center
+    color: #727272
+    font-size: 14px
+    text-transform: uppercase
+    

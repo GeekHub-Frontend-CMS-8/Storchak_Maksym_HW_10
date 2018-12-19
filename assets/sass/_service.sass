@@ -1,6 +1,31 @@
 
 .section__service
+    
+    position: relative
+
+.section__service::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: url(../img/bgservice.png) center no-repeat
+    background-size: cover
+    // opacity: 0.18
+    z-index: -19
+
+.section__service::after
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
     background-color: #b24a50
+    opacity: 0.8
+    z-index: -20
+
 
 .head__service
     background: none

@@ -1,5 +1,30 @@
 .section__about
+    
+    position: relative
+
+.section__about::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: url(../img/bgabout.png) center no-repeat
+    background-size: cover
+    // opacity: 0.18
+    z-index: -19
+
+.section__about::after
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
     background-color: #665464
+    opacity: 0.8
+    z-index: -20
+
 
 .head__about
     background: none
@@ -27,7 +52,34 @@
     text-transform: uppercase
     padding-bottom: 15px
   
+.card__icon-about
+    width: 150px
+    height: 150px
+    border-radius: 150px
+    color: #5b4b59
+    border: 5px double #a1859e
+    margin-top: 20px
     
+
     
+
+.card-about
+    width: 260px
+    background-color: #4d3f4b
+
+
+
+.social__icon
+    color: #ffffff
+    background-color: #a1859e
+    width: 31px
+    height: 31px
+    text-align: center
+    line-height: 31px
+    border-radius: 31px
+    margin-bottom: 30px
+    &:hover
+        color: #df5c64
+        
 
    
